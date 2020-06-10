@@ -13,3 +13,11 @@ function calcSum( $a, $b ) {
 }
 
 calcSum( 5, 5 );
+
+function calcDiff( $a, $b ) {
+	$diff = $a + $b;
+	echo $diff;
+}
+
+calcDiff( 10, 5 );
+
