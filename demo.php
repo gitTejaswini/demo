@@ -1,8 +1,8 @@
 <?php
 
-function test() {
-	$strMessage = 'Hello World!';
-	echo $strMessage;
+function calcSum($a, $b) {
+	$sum= $a + $b;
+	echo $sum;
 }
 
-test();
+calcSum(5,5);
