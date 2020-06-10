@@ -20,3 +20,11 @@ function calcMultiplication( $a, $b ) {
 }
 
 calcMultiplication( 5, 6 );
+
+function calcDiff( $a, $b ) {
+	$diff = $a + $b;
+	echo $diff;
+}
+
+calcDiff( 10, 5 );
+
