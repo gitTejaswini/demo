@@ -13,3 +13,10 @@ function calcSum( $a, $b ) {
 }
 
 calcSum( 5, 5 );
+
+function calcMultiplication( $a, $b ) {
+	$sum = $a * $b;
+	echo $sum;
+}
+
+calcMultiplication( 5, 6 );
